@@ -67,7 +67,7 @@ To get started, clone this repository and follow the installation instructions b
 ---
 
 ## Contact
-For any suggestions, feel free to contct us:
+For any suggestions, feel free to contact us:
  - **Contact:** miscalakyle64@gmail.com
 
 ---
