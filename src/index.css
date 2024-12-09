@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "poppins";
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    background: #6155B4;
+}
+
+.navbar h2 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 0px 20px;
+}
+
+.navmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.navmenu li {
+    display: inline-block;
+}
+
+.navmenu li a {
+    color: #fff;
+    margin-right: 20px;
+    padding: 0px 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Search box styles */
+
+.search-box .search {
+    padding: 10px 6px;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.navmenu .search-box .bx-search {
+    color: #fff;
+    position: relative;
+    right: 45px;
+    top: 2px;
+    background-color: #808080;
+    padding: 12px;
+    border-radius: 50px;
+}
+
+.navmenu .search-box .bx-user {
+    padding: 12px;
+    right: 50px;
+    position: relative;
+    top: 5px;
+    font-size: 30px;
+    color: #fff;
+}
+
+header {
+    background-color: #e7f0f3ac;
+    width: 100%;
+    height: 100vh;
+}
+
+.main-header {
+    width: 75%;
+    margin: auto;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-header h5 {
+    font-size: 19px;
+    color: #808080;
+    font-weight: 550;
+}
+
+.main-header h2 {
+    font-size: 38px;
+    width: 340px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+
+.main-header p {
+    margin-bottom: 60px;
+}
+
+.main-header .btn-explore {
+    background: #6155B4;
+    border: 1px solid #6155B4;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    padding: 12px 30px;
+    border-radius: 12px;
+    transition: all .5s;
+}
+
+.main-header .btn-explore:hover {
+    color: #6155B4;
+    background: #fff;
+}
+
+.main-header img {
+    width: 560px;
+    height: auto;
+}
